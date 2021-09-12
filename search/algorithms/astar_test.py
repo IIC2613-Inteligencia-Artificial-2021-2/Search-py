@@ -4,7 +4,7 @@ Tests for A* Search algorithm.
 
 from typing import Optional
 
-import pytest
+import pytest  # type: ignore
 
 from search.algorithms.astar import AStar
 from search.algorithms.search import Node, SearchAlgorithm

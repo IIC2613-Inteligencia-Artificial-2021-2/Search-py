@@ -280,6 +280,8 @@ def main():
         DFS,
         BFS,
         Dijkstra,
+        # TODO: Add IDDFS
+        # IDDFS,
         Greedy,
         AStar,
     ]
