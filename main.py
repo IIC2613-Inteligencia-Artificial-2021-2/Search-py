@@ -10,6 +10,7 @@ from typing import List
 import numpy as np  # type: ignore
 from termcolor import colored
 
+from search.algorithms.astar import AStar
 from search.algorithms.bfs import BFS
 from search.algorithms.dfs import DFS
 from search.algorithms.dijkstra import Dijkstra
@@ -280,6 +281,7 @@ def main():
         BFS,
         Dijkstra,
         Greedy,
+        AStar,
     ]
 
     for problem_class in metaproblems_dict:
